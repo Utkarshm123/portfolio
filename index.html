@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utkarsh Kumar Mishra — Backend & AI Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">UKM<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="assets/resume.pdf" download class="btn-resume">
+        <i class="fa fa-download"></i> Resume
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/resume.pdf" download class="mobile-resume">Download Resume</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow g1"></div>
+    <div class="hero-glow g2"></div>
+    <div class="hero-content">
+      <p class="hero-tag reveal-up delay-1">Available for Internships & Full-Time Roles</p>
+      <h1 class="hero-name reveal-up delay-2">
+        Utkarsh<br><span class="accent">Kumar Mishra</span>
+      </h1>
+      <p class="hero-role reveal-up delay-3">Backend Developer &amp; AI Engineer</p>
+      <p class="hero-desc reveal-up delay-4">
+        Building intelligent, scalable backend systems with Java, Spring Boot &amp; AWS.<br>
+        Hackathon winner. Patent contributor. B.Tech CSE (AI), KIET–AKTU.
+      </p>
+      <div class="hero-cta reveal-up delay-5">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-socials reveal-up delay-6">
+        <a href="https://www.linkedin.com/in/utkarsh-mishra-b55773320/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Utkarshm123" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:utkarshmrishi@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual reveal-up delay-3">
+      <div class="code-card">
+        <div class="code-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-filename">Utkarsh.java</span>
+        </div>
+        <pre class="code-body"><span class="kw">public class</span> <span class="cn">Utkarsh</span> {
+
+  <span class="kw">String</span> role = <span class="str">"Backend + AI Dev"</span>;
+  <span class="kw">String</span> stack[] = {
+    <span class="str">"Java"</span>, <span class="str">"Spring Boot"</span>,
+    <span class="str">"AWS"</span>, <span class="str">"MySQL"</span>
+  };
+
+  <span class="kw">boolean</span> hackathonWinner = <span class="bl">true</span>;
+  <span class="kw">boolean</span> patentPublished = <span class="bl">true</span>;
+
+  <span class="fn">String</span> <span class="fn">passion</span>() {
+    <span class="kw">return</span> <span class="str">"Build AI-powered systems"</span>;
+  }
+}</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-heading">Crafting Intelligent<br><span class="accent">Backend Systems</span></h2>
+          <p>I'm a Computer Science undergraduate at KIET Group of Institutions (AKTU), specializing in Artificial Intelligence. I focus on building robust backend architectures that power AI-driven applications — from REST API design and cloud deployment to real-time data processing.</p>
+          <p>With hands-on experience spanning Java ecosystems, Spring Boot microservices, and AWS cloud infrastructure, I bring both engineering discipline and creative problem-solving to every project I contribute to.</p>
+          <p>I thrive in high-pressure environments — having competed in hackathons at IIT Kharagpur, IIT Jammu, LNMIIT Jaipur, and GLA Greater Noida, earning top finishes across the board.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Hackathon Finals</span></div>
+            <div class="stat"><span class="stat-num">1</span><span class="stat-label">Patent Published</span></div>
+            <div class="stat"><span class="stat-num">10+</span><span class="stat-label">REST APIs Built</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">AWS Certifications</span></div>
+          </div>
+        </div>
+        <div class="about-card-col">
+          <div class="info-card">
+            <div class="info-row"><i class="fas fa-graduation-cap"></i><span>B.Tech CSE (AI) · KIET, AKTU</span></div>
+            <div class="info-row"><i class="fas fa-map-marker-alt"></i><span>Delhi NCR, India</span></div>
+            <div class="info-row"><i class="fas fa-envelope"></i><span>utkarshmrishi@gmail.com</span></div>
+            <div class="info-row"><i class="fas fa-calendar"></i><span>Graduating 2027</span></div>
+            <div class="info-row"><i class="fas fa-star"></i><span>CGPA: 7.8 / 10</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-heading">Technical <span class="accent">Arsenal</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-title"><i class="fas fa-code"></i> Backend Engineering</div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Java</span><span>90%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Spring Boot</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>REST API Design</span><span>88%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>JPA / Hibernate</span><span>80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-title"><i class="fas fa-cloud"></i> Cloud & Data</div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>AWS EC2 / S3</span><span>82%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>MySQL</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Python</span><span>72%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Git / GitHub</span><span>88%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-title"><i class="fas fa-layer-group"></i> Frontend & Tools</div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>HTML / CSS</span><span>78%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>JavaScript</span><span>70%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Thymeleaf</span><span>75%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>MVC Architecture</span><span>85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-title"><i class="fas fa-certificate"></i> Certifications</div>
+          <div class="cert-chips">
+            <span class="cert-chip aws"><i class="fab fa-aws"></i> AWS Cloud Practitioner</span>
+            <span class="cert-chip aws"><i class="fab fa-aws"></i> AWS AI Practitioner</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-heading">Selected <span class="accent">Work</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-tag">Featured · Patent Published</div>
+          <div class="project-header">
+            <i class="fas fa-water project-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/Utkarshm123/BlueShore?tab=readme-ov-file#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">BlueShore</h3>
+          <p class="project-subtitle">AI-Enabled Smart Beach Tourism Platform</p>
+          <p class="project-desc">
+            A full-stack AI-powered tourism platform delivering personalized beach recommendations, real-time crowd predictions, and automated safety alerts. Built with Spring Boot MVC architecture, 10+ REST APIs, and deployed on AWS EC2 with S3 cloud storage.
+          </p>
+          <ul class="project-highlights">
+            <li>AI-powered crowd prediction & automated travel checklist</li>
+            <li>Real-time weather API integration for live environmental insights</li>
+            <li>Secure MySQL backend via JPA/Hibernate with input validation</li>
+            <li>AWS EC2 deployment + S3 object storage</li>
+          </ul>
+          <div class="project-tech">
+            <span>Spring Boot</span><span>Java</span><span>MySQL</span><span>Thymeleaf</span><span>AWS EC2</span><span>AWS S3</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <i class="fas fa-bus project-icon"></i>
+            <div class="project-links"></div>
+          </div>
+          <h3 class="project-title">CityConnect</h3>
+          <p class="project-subtitle">Smart Commuter Web Application</p>
+          <p class="project-desc">
+            A responsive web application that empowers urban commuters to compare transit routes intelligently — weighing travel time, cost, and accessibility — through a mobile-first, dynamic interface.
+          </p>
+          <ul class="project-highlights">
+            <li>Dynamic client-side decision logic for optimized route comparison</li>
+            <li>Mobile-first responsive design for broad device accessibility</li>
+            <li>Pure frontend implementation with clean, intuitive UX</li>
+          </ul>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section alt">
+    <div class="container">
+      <div class="section-label">04 — Achievements</div>
+      <h2 class="section-heading">Milestones & <span class="accent">Recognition</span></h2>
+      <div class="ach-grid">
+
+        <div class="ach-card winner">
+          <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+          <div class="ach-body">
+            <div class="ach-badge">🥇 Winner</div>
+            <h4>1st Global AI Summit Hackathon</h4>
+            <p>36-hour hackathon organized at GLA Greater Noida — ranked 1st among competing teams nationally.</p>
+            <a href="https://www.linkedin.com/posts/utkarsh-mishra-b55773320_kietdeemedtobeuniversity-csit-studentsuccess-activity-7422966725387923456-ewD5" target="_blank" class="ach-link">View Post <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon"><i class="fas fa-flag"></i></div>
+          <div class="ach-body">
+            <div class="ach-badge">🏆 Finalist</div>
+            <h4>IIT Jammu – Techpreneur (Udyamitsav'26)</h4>
+            <p>Selected as a finalist at one of India's premier technical entrepreneurship hackathons.</p>
+            <a href="https://drive.google.com/file/d/1QsFJsYBqIpXbKM-EDm8mC7MEQmJAMJmp/view" target="_blank" class="ach-link">Certificate <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon"><i class="fas fa-flag"></i></div>
+          <div class="ach-body">
+            <div class="ach-badge">🏆 Finalist</div>
+            <h4>LNMIIT Jaipur – UNstoppable</h4>
+            <p>Advanced to finals at LNMIIT Jaipur's flagship innovation challenge.</p>
+            <a href="https://drive.google.com/file/d/1eudBbWX0LFSqW5AB0I8Q5BQi0k9zt02y/view" target="_blank" class="ach-link">Certificate <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon"><i class="fas fa-flag"></i></div>
+          <div class="ach-body">
+            <div class="ach-badge">🏆 Finalist</div>
+            <h4>IIT Kharagpur Hackathon</h4>
+            <p>Selected as a finalist at IIT Kharagpur's prestigious national-level hackathon.</p>
+            <a href="https://drive.google.com/file/d/1zpVC627IkHCaEIUAC-T3jE_SIhnSCZCm/view" target="_blank" class="ach-link">Certificate <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon"><i class="fas fa-star"></i></div>
+          <div class="ach-body">
+            <div class="ach-badge">🏅 Dept. Winner</div>
+            <h4>Innotech 2024 & 2025 – KIET</h4>
+            <p>Back-to-back departmental winner at KIET's annual innovation & technology showcase.</p>
+            <a href="https://drive.google.com/file/d/1Yt63wleVqYhBUp7Dbk_Tz-k1Y1GXly50/view" target="_blank" class="ach-link">Certificate <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="ach-card patent">
+          <div class="ach-icon"><i class="fas fa-file-alt"></i></div>
+          <div class="ach-body">
+            <div class="ach-badge">📄 Patent</div>
+            <h4>Patent Application Published</h4>
+            <p>BlueShore AI Tourism Platform — patent application officially published by the Indian Patent Office.</p>
+            <a href="https://www.linkedin.com/posts/utkarsh-mishra-b55773320_we-are-proud-to-share-that-our-patent-of-activity-7375929479208173568-a8ci" target="_blank" class="ach-link">View Post <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div class="cert-section">
+        <h3 class="cert-heading">Certifications</h3>
+        <div class="cert-cards">
+          <a href="https://drive.google.com/file/d/1iFp-u4oPIRoYipI09D1MtSpPbFOOxZFo/view" target="_blank" class="cert-card">
+            <i class="fab fa-aws"></i>
+            <span class="cert-title">AWS Certified Cloud Practitioner</span>
+            <span class="cert-sub">Amazon Web Services</span>
+          </a>
+          <a href="https://drive.google.com/file/d/17aucOaxeSkZVVRB2P28vDZLWlE3edyGB/view" target="_blank" class="cert-card">
+            <i class="fab fa-aws"></i>
+            <span class="cert-title">AWS Certified AI Practitioner</span>
+            <span class="cert-sub">Amazon Web Services</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-label">05 — Education</div>
+      <h2 class="section-heading">Academic <span class="accent">Background</span></h2>
+      <div class="edu-timeline">
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <span class="edu-year">2023 — 2027</span>
+            <h3>B.Tech – Computer Science & Engineering (AI)</h3>
+            <p class="edu-inst">KIET Group of Institutions, AKTU</p>
+            <p class="edu-grade">CGPA: 7.8 / 10</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <span class="edu-year">Class XII · CBSE</span>
+            <h3>Senior Secondary Education</h3>
+            <p class="edu-grade">Score: 88%</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <span class="edu-year">Class X · CBSE</span>
+            <h3>Secondary Education</h3>
+            <p class="edu-grade">Score: 93.2%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container contact-container">
+      <div class="section-label">06 — Contact</div>
+      <h2 class="section-heading">Let's <span class="accent">Connect</span></h2>
+      <p class="contact-intro">I'm actively looking for internship and full-time opportunities in backend development and AI engineering. If you're building something exciting, I'd love to hear from you.</p>
+      <div class="contact-methods">
+        <a href="mailto:utkarshmrishi@gmail.com" class="contact-method">
+          <i class="fas fa-envelope"></i>
+          <span>utkarshmrishi@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/utkarsh-mishra-b55773320/" target="_blank" class="contact-method">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/utkarsh-mishra</span>
+        </a>
+        <a href="https://github.com/Utkarshm123" target="_blank" class="contact-method">
+          <i class="fab fa-github"></i>
+          <span>github.com/Utkarshm123</span>
+        </a>
+      </div>
+      <a href="mailto:utkarshmrishi@gmail.com" class="btn-primary contact-cta">Say Hello 👋</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed & built by <strong>Utkarsh Kumar Mishra</strong> · 2025</p>
+    <p class="footer-sub">Delhi NCR, India · Available for opportunities</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
